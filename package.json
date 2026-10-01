@@ -1,0 +1,33 @@
+{
+  "name": "hackathon-ai-agent-marketplace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node patch-x402.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JITHINDSK1/Hackathon-AI-Agent-Marketplace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JITHINDSK1/Hackathon-AI-Agent-Marketplace/issues"
+  },
+  "homepage": "https://github.com/JITHINDSK1/Hackathon-AI-Agent-Marketplace#readme",
+  "dependencies": {
+    "@x402-avm/avm": "^2.6.1",
+    "@x402-avm/core": "^2.6.1",
+    "@x402-avm/express": "^2.6.1",
+    "algosdk": "^3.6.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
+  }
+}
